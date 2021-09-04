@@ -19,6 +19,8 @@ select concat('Hello, ', 'World') from dual;
 select 'Hello, ' || 'World' from dual;
 
 select 'Hello, ' || 'World! ' || 'Greate to ' || 'see you.' from dual;
+select concat (concat('Hello, ','World '), Concat('Great to see', ',You')) from dual;
+
 
 --2020/10/17
 --lpad, rpad
